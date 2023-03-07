@@ -1,0 +1,141 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Positions */
+
+
+.profile-card {
+  width: 450px;
+  height: 95%;
+  max-width: calc(100vw - 10px)
+  }
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 180px;
+  height: 180px;
+  margin-top:-35px;
+  margin-bottom:15px;
+}
+
+.profile-image {
+  margin-top: 20px;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.about {
+  font-size: 18px;
+  font-weight:500;
+}
+
+.content {
+  padding: 5% 5%;
+  text-align:left;
+}
+
+body {
+  background: url('https://i.imgur.com/5rXHLnN.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .6);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+img {
+  background-color: #666;
+  filter: grayscale(50%);
+}
+
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .5);
+  padding-top:10px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
+
+.from {
+  margin-top:10px;
+  color: grey;
+}
+
+.name {
+  padding-bottom:15px;
+  text-transform: uppercase;
+}
+
+.qualification {
+  font-weight:450;
+  font-size:18px;
+}
+
+.ch {
+  padding-top:15px;
+}
+
+.content {
+  padding-top:30px;
+}
+
+.button-one {
+  color: grey;
+}
+
+.me-via {
+  padding-bottom:15px;
+  font-weight:400;
+}
+
+.button-one {
+  padding-right:5px;
+  color: green;
+}
+
+.button-two {
+  padding-right:5px;
+  color: green;
+}
+
+.button-three {
+  padding-right:5px;
+  color: green;
+}
